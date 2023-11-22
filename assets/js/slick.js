@@ -71,7 +71,7 @@
                 respondTo: 'window',
                 responsive: null,
                 rows: 1,
-                rtl: false,
+                rtl: true,
                 slide: '',
                 slidesPerRow: 1,
                 slidesToShow: 1,
