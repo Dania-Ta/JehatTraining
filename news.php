@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.png">
+
+  <head>
+    <!-- Other meta tags and stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Add the Bootstrap CSS link above your own custom CSS links -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
+    
+    <title>الأخبار</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--
+
+Finance Business TemplateMo
+
+https://templatemo.com/tm-545-finance-business
+
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    <style>
+ 
+      .dropdown-item{
+        text-align: right;
+      }
+      .service-item{
+        text-align: right;
+      }
+    </style>
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+              <li><a href="#"><i class="fa fa-clock-o"></i>الأحد -الخميس 08:00-16:00</a></li>
+              <li><i class="fa fa-phone"></i>اتصل بنا 966503166657+</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"> <img src="assets/images/logo.png" style="height: 50px; width: 160px;"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">الرئيسية
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li> 
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="direction: rtl;">عن الجمعية </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item page-scroll" href="about.html" style="text-align: right;">نبذة عن الجمعية</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="about1.html">شهادة التسجيل</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="about2.html">أعضاء الجمعية العمومية</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="about3.html">مجلس الإدارة</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="about4.html">الهيكل التنظيمي</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="about5.html">الموظفون والموظفات</a>
+                </div>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Gfiles.html">ملفات الحوكمة</a>
+              </li>                          
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="direction: rtl;">الخدمات الإلكترونية </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item page-scroll" href="sarvice.html">الشكاوي والإقتراحات</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="sarvice1.html">استطلاع رضا الموظفين</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="sarvice2.html">استطلاع رضا أعضاء مجلس الإدارة</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="sarvice3.html">استطلاع رضا أعضاء الجمعية العمومية</a>
+                </div>
+               </li>
+              <li class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="direction: rtl;">المركز الإعلامي </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item page-scroll" href="photo.html">مكتبة الصور</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="video.html">مكتبة الفيديو</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="news.html">الأخبار</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item page-scroll" href="recruitment.html">التوظيف</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Connectus.html">اتصل بنا</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="rateus.html">قيمنا</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>الأخبار</h1>
+            <span>مدونة الأخبار الخاصة بالجمعية</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news1.html"> <h2 style="text-align: right;">نتائج تقييم الحوكمة 2022.م</h2> </a>
+                    <p style="text-align: right;">قام ممثل فريق تقييم الحوكمة أ. ايمن سعيد الغامدي بزيارة مقر الجمعية يوم الاثنين الموافق 20/2/2023م بحضور الممثل المالي أ.محمد الفرحان والمدير التنفيذي أ. وليد بن صالح الغامدي والمحاسب أ. باسم عاطف وتم مراجعة اعمال الجمعية ومطابقتها لنظام الحوكمة من قبل ممثل الوزارة والله ولي التوفيق.
+                      <br>التاريخ:</br>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11110.jpg" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news2.html"> <h2 style="text-align: right;">اجتماع الجمعية العمومية 11/06/2023</h2> </a>
+                    <p style="text-align: right;">التاريخ:</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11120.jpeg" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news3.html"> <h2 style="text-align: right;">دعوة</h2></a>
+                    <p style="text-align: right;">التاريخ:</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11130.jpeg" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news4.html"> <h2 style="text-align: right;">زيارة جمعية تعاونية الرضا</h2></a>
+                    <p style="text-align: right;">سعدنا بزيارة جمعية تعاونية الرضا لتفعيل برنامج تبادل الخبرات بين الجمعيات نسأل الله لهم التوفيق والسداد وللجميع</p>
+                    <p style="text-align: right;">التاريخ: 16/06/1442</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11140.jpg" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news5.html"> <h2 style="text-align: right;">مبادرة الجمعية التعاونية بالرهوة# قال تعالى (وَتَعَاوَنُوا عَلَى الْبِرِّ وَالتَّقْوَى)</h2></a>
+                    <p style="text-align: right;">مع هذه المبادرة انتم باذن الله اقرب الى الخير .. اقرب الى ضروريات الاسر المحتاجة في شهر رمضان الكريم فلا تبخلوا عليهم .. كتب الله اجر من تصدق بها او دل عليها (فالدال على الخير كفاعله).</p>
+                    <p style="text-align: right;">التاريخ: 18/06/1442</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11150.jpg" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news6.html"> <h2 style="text-align: right;">انعقاد اجتماع الجمعية العمومية</h2></a>
+                    <p style="text-align: right;">السادة اعضاء الجمعية العمومية لجمعية الرهوة التعاونية السلام عليكم ورحمة الله وبركاته .. يسرنا إبلاغكم بموعد انعقاد اجتماع الجمعية العمومية والذي سوف يكون في تاريخ 26/ 10/ 1442 في تمام الساعة السابعة مساء عن بعد من خلال برنامج الزوم وتقبلوا تحيات مجلس الادارة.</p>
+                    <p style="text-align: right;">التاريخ: 26/10/1442</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11160.png" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news7.html"> <h2 style="text-align: right;">عقد اجتماع مجلس الادارة للجمعية التعاونية بالرهوة يوم الثلاثاء الموافق 8/12/2020</h2></a>
+                    <p style="text-align: right;">م عقد اجتماع مجلس الادارة للجمعية التعاونية بالرهوة يوم الثلاثاء الموافق 8/12/2020 برئاسة رئيس مجلس الادارة الشيخ احمد الكلي ، وتم مناقشة بعض المواضيع المهمة ومن ضمنها ، 1- الوضع المالي للجمعية واهم ما تحقق للعام 2020 ، 2- المشاريع المستجدة للجمعية .</p>
+                    <p style="text-align: right;">التاريخ: 03/05/1442</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11170.jpg" style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="more-info about-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="more-info-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center">
+                  <div class="Left-content">
+                    <a href="news8.html"> <h2 style="text-align: right;">أعرب رئيس مجلس ادارة جمعية الرهوة التعاونية الشيخ احمد الكلي عند شكره وامتنانه</h2></a>
+                    <p style="text-align: right;"> أعرب رئيس مجلس ادارة جمعية الرهوة التعاونية الشيخ احمد الكلي عند شكره وامتنانه لجمعية النحالين التعاونية واصحاب الايادي البيضاء من أهل الخير لدعمهم مبادرتها المجتمعية"بطاقة بذرة خير" والتي خصصت للمحتاجين وللأسر الأكثر تضررراً من جائحة كورونا وذلك بالتعاون مع</p>
+                    <p style="text-align: right;">التاريخ: 22/06/1442</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="right-image">
+                    <img src="assets/images/11180.jpg"style="height: 200px; width: 350px;" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+<br>
+<br>
+
+<!-- Footer Starts Here -->
+<footer>
+  <div class="container">
+  <div class="row">
+  <div class="col-md-4 footer-item">
+      <a class="navbar-brand" href="index.html"> <img src="assets/images/logo.png"
+         style="height: 70px; width: 180px;"></a>
+
+          <ul class="social-icons">
+            <li><a href="https://www.snapchat.com/add/alrahwa1?share_id=LRB4ST4US2iItS2nPWy2Jg&locale=ar_SA@calendar=gregorian&sid=31709f5a195d4c8188a121460d1ec4d5"
+                    target="_blank"><i class="fa fa-snapchat" style="font-size: 24px; margin-top: 5px;"></i></a></li>
+                <li style="	padding-left: 4px;"><a href="https://twitter.com/alrahwa1" 
+                    target="_blank"><i class="fa fa-twitter" style="font-size: 22px; margin-top: 7px;"></i></a></li>
+                <li><a
+                    href="https://api.whatsapp.com/send/?phone=966503166657&text&type=phone_number&app_absent=0target="
+                    target="_blank"><i class="fa fa-whatsapp" style="font-size: 22px; margin-top: 5px;"></i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 footer-item">
+              <br>
+              <br>
+              <h4 style="font-size: 25px; text-align: left;"><a href="mailto:alrahwa@outlook.com" style="color:#fff">alrahwa@outlook.com</a></h4>
+            </div>
+            <div class="col-md-4 footer-item">
+              <br>
+              <br>
+              <h4 style="font-size: 25px; text-align: center;"><a href="tel:966503166657+" style="color:#fff;">966-50-316-6657+</a></h4>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="sub-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <p>© الجمعية التعاونية متعددة الاغراض بالرهوة.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Additional Scripts -->
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/accordions.js"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+      function clearField(t){                   //declaring the array outside of the
+      if(! cleared[t.id]){                      // function makes it static and global
+          cleared[t.id] = 1;  // you could use true and false, but that's more typing
+          t.value='';         // with more chance of typos
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
